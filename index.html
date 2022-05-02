@@ -1,9 +1,164 @@
+<!DOCTYPE html>
+
 <html>
- 
-<body>
-  <h1>JASON BIRDI</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
+  <head>
+    <title>Jason Birdi's Personal Website</title> 
+    <link href="resources/index.CSS" rel="stylesheet">
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner-header">
+        <div class="logo-container">
+          <h1>Jason<span>Birdi</span></h1>
+        </div>
+        <ul class="nav">
+          <a href="#home"><li>Home</li></a>
+          <a href="#skills"><li>Skills</li></a>
+          <a href="#experience"><li>Experience</li></a>
+          <a href="#interests"><li>Interests</li></a>
+        </ul>
+      </div>
+    </header>
+    <div class="home" id="home">
+      <div class="profile">
+        <img src="resources/Jason_Birdi.JPG" alt="Personal Picture" class="profile-pic">
+        <h1>Jason Birdi</h1>
+        <h5>Student Developer</h5>
+        <p>
+          It's not easy being a hustler. You need to love the grind, trust yourself, trust the process (not the Phillideliphia
+          76ers process), and savour every moment. I'm Jason, an enthusiastic Nanotechnology engineering student at the University 
+          of Waterloo immersing myself in the world of software development. Being in a program that provides co-op, I look 
+          for supportive, motivating companies to apply my software abilities and love for innovativation (hence, nanotechnology) 
+          while building a core skillset and learning as much as I possibly can. I plan to continue to build this website as I learn 
+          more about full-stack development (react, node, and more of what's out there). That being said, let's hustle!
+        </p>
+      </div>
+    </div>
+    <div class="skills" id="skills">
+      <h1>Skills</h1>
+        <div class="technologies">
+          <a><i class="fa fa-gear"></i></a>
+          <ul>
+            <il>Linux • </il>
+            <il>Docker & Containerization • </il>
+            <il>Atlassian (Jira, Confluence, Bitbucket) • </il>
+            <il>Git • </il>
+            <il>Apache Kafka & Spark & Flink & NiFi • </il>
+            <il>VSCode</il>
+          </ul>
+        </div>
+        <div class="languages">
+          <a><i class="fa fa-code"></i></a>
+          <ul>
+            <il>Python • </il>
+            <il>HTML/CSS • </il>
+            <il>JavaScript • </il>
+            <il>C++ • </il>
+            <il>MATLAB • </il>
+            <il>Raspberry Pi & Arduino</il>
+          </ul>
+        </div>
+        </ul>
+      </div>
+    </div>
+    <div class="experience" id="experience">
+      <h1>Experience</h1>
+      <div class="column">
+        <div class="column-left">
+          <img class="company-pic" src="resources/WR.jpg" alt="WR">
+          <h2>Analytics Developer</h2>
+          <h3>Wind River</h3>
+          <h4>January 2022 - April 2022</h4>
+          <ul>
+            <il>Built pipeline infrastructure that performs transformations and handles data using Apache Flink</il>
+            <il>Conducted vigorous tests by applying varying frameworks including Apache NiFi, Kafka, Spark, Dagster, and Pandas to optimize pipeline
+              performance</il>
+            <il>Created reusable examples and optimized testing by learning and applying Docker and containerization; began research and imple-
+              mentation on Kubernetes and AWS. </il>
+              <il>Utilized a remote Linux OS and set up a functional development environment by applying SSH with VSCode</il>
+          </ul>
+        </div>
+        <div class="column-middle">
+          <img class="company-pic" src="resources/CSUV.png" alt="CSUV">
+          <h2>Embedded Systems Developer</h2>
+          <h3>CleanSlate UV</h3>
+          <h4>May 2021 - August 2021</h4>
+          <ul>
+            <il>Optimized and integrated Python code on a Linux-based Raspberry Pi processor that works as a state-machine with multi-threading</il>
+            <il>Implemented a new display system and architecture on the processor that utilizes Python’s Kivy library to create our prototype’s frontend UX</il>
+            <il>Worked with open-source git to create a microcontroller type testing application (DevTA) in Python that tests various display screens</il>
+            <il>Studied AWS and used the research to find and interview Upworks contractors that implemented OTA updates for the new prototype</il>
+          </ul>
+        </div>
+        <div class="column-right">
+          <img class="company-pic" src="resources/WFE.jpg" alt="WFE">
+          <h2>Firmware Team Developer</h2>
+          <h3>Waterloo Formula Electric</h3>
+          <h4>September 2020 - Present</h4>
+          <ul>
+            <il>Created an accelerometer that uses positional data in 3 dimensions from a CSV file and used QT to graph it and chart a change in speed</il>
+            <il>Learned and applied knowledge of linear circuits, C++, Jira, Git, and Bitbucket when reviewing, updating, and testing code for the car</il>
+            <il>Adapted to the engineering team requirements by working on a Linux VM within my Windows OS and maintaining a strong attendance</il>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="interests" id="interests">
+      <div class="trading">
+        <img class="interest-pic" src="resources/investing.jpg" alt="Investing">
+        <h3>Stock Trading & Finding Investments</h3>
+        <p>
+          I took a personal finance course in grade 12 and fell in love with the idea of passive income. It sounds amazing! But of course, as I grow, I learn that 
+          obtaining that passive income comes with hard work and long research. Think of the slogan "make money make money". I have looked into the stock market,
+          crypto currencies, real estate, and airbnb arbitrage as possible investments and find them extremely exciting. I dabble in these various investments to 
+          gain knowledge and I find myself becoming better and better. This is a long term process, and I am happy to keep it that way to reach my goals down the line!
+        </p>
+      </div>
+      <div class="basketball">
+        <img class="interest-pic" src="resources/basketball.jpg" alt="Basketball">
+        <h3>Watching, playing, and practicing sport - especially basketball</h3>
+        <p>
+          I used to aspire to be a soccer player growing up; I played rep, and it became part of my life. As I got into highschool, I transitioned to more 
+          casual soccer and took a basketball course. When COVID hit, I spent the 5 months off working on my craft of basketball and fell in love with the sport. Now 
+          I watch various sports and stay open to playing anything to keep active and spend time with friends. I still consistently work on my basketball skills too! 
+        </p>
+      </div>
+      <div class="interest-header">
+        <h1>Interests</h1>
+      </div>
+      <div class="games">
+        <img class="interest-pic" src="resources/gaming.jpg" alt="Gaming">
+        <h3>Playing various video games</h3>
+        <p>
+          I love a variety of video games, they're what I play on my downtime to relax and reconnect with friends. I play some PS games like NBA2k, FIFA, GTA and more,
+          some driving games like Forza (very relaxing), and I especially like League of Legends (not so relaxing)!
+        </p>
+      </div>
+      <div class="learning">
+        <img class="interest-pic" src="resources/learning.jpg" alt="Learning">
+        <h3>Always Learning</h3>
+        <p>
+          I believe in being an eternal student, there is always something to learn and grow on which I love the idea of. Even building this website was an 
+          amazing HTML/CSS learning experience. There is so much out there in the world I want to learn, not just in the software world, which I can't wait to explore!
+        </p>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <h3>Get in Touch</h3>
+        <p><i>I am available through any of the forms of contact below, feel free to reach out for advice, opportunities, and more!</i></p>
+        <ul class="socials">
+          <li><a href="https://www.linkedin.com/in/jason-birdi-8368231b6/"><i class="fa fa-linkedin-square"></i></a></li>
+          <li><a href="mailto:j2birdi@uwaterloo.ca"><i class="fa fa-envelope-square"></i></a></li>
+          <li><a href="https://github.com/JasonBirdi"><i class="fa fa-github"></i></a></li>
+        </ul>
+        <div class="footer-bottom">
+          <p><i>Website Designed by Jason Birdi</i></p>
+        </div>
+      </div>
+    </footer>
+  </body>
  
 </html>
